@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 992px) 
+  .info-table
+    display: block
+  #footer
+    .footer-menu
+      justify-content: flex-end
+      ul
+        margin-right: 15vw
+
+@media only screen and (max-width: 768px)
+  header
+	  .header-content
+		  .material-icons
+        padding: 0 5px
+  .sidebar
+    position: fixed
+    height: 100vh
+    z-index: 10
+    top: -80px
+    transform: translateX(-100%)
+    transition: transform 0.25s ease
+    &.active
+      transform: translateX(0)
+  #content
+    .profile-section
+      left: 0
+      flex-basis: 100%
+  .menu-icon
+    display: inline
+  #footer
+    .footer-menu
+      justify-content: center
+      ul
+        margin-right: 0
+
+@media only screen and (max-width: 576px)
+  .present-section
+    padding-left: 20px
+    padding-right: 20px
+    .settings
+      right: 20px
+  .gallery-section
+    .gallery-item
+      flex-basis: 33.33vw
+      &.add-photos
+        a
+          height: 33.33vw
+      &.add-photo
+        a
+          height: 33.33vw
+    a.img-wrap
+      width: 33.33vw
+      height: 33.33vw
+      img
+        width: 33.33vw
+  .sidebar
+	  &-block
+      padding: 25px 20px 20px
+    
+  
+
